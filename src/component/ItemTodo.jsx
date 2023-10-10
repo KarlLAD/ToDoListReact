@@ -32,7 +32,8 @@ const ItemTodo = ({ todo }) => {
 
 
     // <View style={height : 50, width: 350, backgroundColor: "#fff", margin: 10, flexDirection : "row" }> 
-    
+    // view style background    *4 fois
+
 
     // </View>
 

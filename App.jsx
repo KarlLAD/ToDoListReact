@@ -1,6 +1,7 @@
 import { View, Text } from 'react-native'
 import React, { useEffect } from 'react'
 import Todo from './src/Todo'
+import Tuto from './tuto/Tuto'
 // import firestore from '@react-native-firebase/firestore'
 
 const App = () => {
@@ -19,13 +20,11 @@ const App = () => {
 
   // }, [])
   return (
-    <View>
-     
-      <Text> ToDo-List - React</Text>
 
-      <Todo/>
+      <Tuto/>
 
-    </View>
+    
+      
   )
 }
 
