@@ -1,7 +1,8 @@
 import { View, Text } from 'react-native'
 import React, { useEffect } from 'react'
 import Todo from './src/Todo'
-// import firestore from '@react-native-firebase/firestore'
+import LeBonCoin from './LeBonCoin/LeBonCoin'
+
 
 const App = () => {
 
@@ -21,9 +22,8 @@ const App = () => {
   return (
     <View>
      
-      <Text> ToDo-List - React</Text>
-
-      <Todo/>
+   
+      <LeBonCoin/>
 
     </View>
   )
