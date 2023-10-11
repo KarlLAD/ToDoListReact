@@ -3,6 +3,7 @@ import React, {useEffect} from 'react';
 import Todo from './src/Todo';
 import LeBonCoin from './LeBonCoin/LeBonCoin';
 import TheBurger from './TheBurger/TheBurger';
+import TheBiker from './TheBiker/TheBiker';
 
 const App = () => {
   // vérifié si on a bien travaillé
@@ -18,7 +19,8 @@ const App = () => {
   return (
     <View>
       {/* <LeBonCoin/> */}
-      <TheBurger />
+      {/* <TheBurger /> */}
+      <TheBiker />
     </View>
   );
 };
