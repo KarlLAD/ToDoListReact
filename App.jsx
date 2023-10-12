@@ -4,6 +4,7 @@ import Todo from './src/Todo';
 import LeBonCoin from './LeBonCoin/LeBonCoin';
 import TheBurger from './TheBurger/TheBurger';
 import TheBiker from './TheBiker/TheBiker';
+import Discovery from './Discovery/Discovery';
 
 const App = () => {
   // vérifié si on a bien travaillé
@@ -20,7 +21,8 @@ const App = () => {
     <View>
       {/* <LeBonCoin/> */}
       {/* <TheBurger /> */}
-      <TheBiker />
+      {/* <TheBiker /> */}
+      <Discovery />
     </View>
   );
 };
